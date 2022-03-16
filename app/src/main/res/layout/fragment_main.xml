@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@color/purple_200"
+    android:orientation="vertical"
+    tools:context=".MainFragment">
+
+    <EditText
+        android:id="@+id/EdiText"
+        android:textColor="@color/black"
+        android:hint="Write here"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:layout_marginBottom="23dp"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+
+    <Button
+        android:id="@+id/btn"
+        android:textStyle="bold"
+        android:text="Click me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
